@@ -66,6 +66,9 @@ header ul li {
 header .nav li {
     font-size: 15px;
 }
+header .nav li:hover {
+  text-decoration: underline;
+}
 /*section*/
 section article {
     padding: 200px 0;
@@ -121,6 +124,17 @@ h2 + p {
     padding: 10px;
     font-size: 12px;
     border: 1px solid #b8b8b8;
+    background: #fff;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.product-type01 li .btn-shop:hover {
+    color: #fff;
+    background: #222;
+    border-color: #222;
 }
 .product-type02 li {
     position: relative;
