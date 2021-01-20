@@ -263,6 +263,11 @@ section {
     right: 50px;
     bottom: 30px;
 }
+.increase-text {
+    -webkit-animation: text-flash 1.5s infinite ease-in-out;
+    -o-animation: text-flash 1.5s infinite ease-in-out;
+    animation: text-flash  1.5s infinite ease-in-out;
+}
 .label-lg {
     display: inline-block;
     padding: 15px 50px;
@@ -270,11 +275,6 @@ section {
     font-size: 2.063rem;
     font-weight: 300;
     background: #af9e6e;
-}
-.label-lg b {
-    -webkit-animation: label-move 1.5s infinite ease-in-out;
-    -o-animation: label-move 1.5s infinite ease-in-out;
-    animation: label-move  1.5s infinite ease-in-out;
 }
 .section4 {
     background: url("../img/section_bg04.jpg") no-repeat center;
@@ -1004,7 +1004,7 @@ textarea::placeholder {
         left: 0;
     }
 }
-@keyframes label-move {
+@keyframes text-flash {
     100% {
         opacity: 1;
     }
