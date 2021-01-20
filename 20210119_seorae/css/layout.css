@@ -441,7 +441,7 @@ textarea::placeholder {
     height: 55px;
     padding: 20px;
     font-size: 1.25rem;
-    color: #b5b5b5;
+    color: #000;
     border: 1px solid #000;
     background: #fff;
 }
@@ -682,6 +682,10 @@ textarea::placeholder {
         -ms-transform: translateX(0);
         -o-transform: translateX(0);
         transform: translateX(0);
+    }
+    .dots li {
+        display: block;
+        width: 100%;
     }
     .dots li a.active:after{
         color: #fff;
