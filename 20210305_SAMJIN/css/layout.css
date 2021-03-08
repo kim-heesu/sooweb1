@@ -858,6 +858,9 @@ div[class*="section"] {
     .main-visual .text-box p b span {
         letter-spacing: -3px;
     }
+    .main-visual .slick-slide.slick-active b span:nth-child(10) {
+        letter-spacing: -1px;
+    }
     h2 {
         font-size: 25px;
     }
